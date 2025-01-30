@@ -10,18 +10,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.aman.dryspell.ui.theme.Purple500
 
 @Composable
-fun HomeScreen() {
+fun ProfileScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Purple500),
+            .background(Color.DarkGray),
         contentAlignment = Alignment.Center
     ) {
         Text(
-            text = "Home",
+            text = "Profile",
             fontSize = 32.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
